@@ -17,20 +17,6 @@ public enum EStatusCode {
     NOT_FOUND(HttpServletResponse.SC_NOT_FOUND, "SYS_404", "not.found"),
     CONFLICT(HttpServletResponse.SC_BAD_REQUEST, "SYS_409", "conflict"),
     INTERNAL_ERROR(HttpServletResponse.SC_INTERNAL_SERVER_ERROR, "SYS_500", "internal.error"),
-
-    LOGIN_WRONG_PASSWORD(HttpServletResponse.SC_UNAUTHORIZED, "AUTH_001", "auth.login.wrong.password"),
-    LOGIN_ACCOUNT_LOCKED(HttpServletResponse.SC_FORBIDDEN, "AUTH_002", "auth.login.account.locked"),
-    LOGIN_ACCOUNT_INACTIVE(HttpServletResponse.SC_FORBIDDEN, "AUTH_003", "auth.login.account.inactive"),
-    LOGIN_USER_NOT_FOUND(HttpServletResponse.SC_NOT_FOUND, "AUTH_004", "auth.login.user.not.found"),
-
-    USER_NOT_FOUND(HttpServletResponse.SC_NOT_FOUND, "USER_001", "user.not.found"),
-    USER_DELETED(HttpServletResponse.SC_NOT_FOUND, "USER_002", "user.deleted"),
-    USER_EMAIL_EXISTS(HttpServletResponse.SC_BAD_REQUEST, "USER_003", "user.email.exists"),
-    USER_CODE_EXISTS(HttpServletResponse.SC_BAD_REQUEST, "USER_004", "user.code.exists"),
-    USER_CANNOT_DELETE_SELF(HttpServletResponse.SC_BAD_REQUEST, "USER_005", "user.cannot.delete.self"),
-    USER_ALREADY_RESTORED(HttpServletResponse.SC_BAD_REQUEST, "USER_006", "user.already.restored"),
-    USER_ALREADY_DELETED(HttpServletResponse.SC_BAD_REQUEST, "USER_007", "user.already.deleted"),
-
     UNKNOWN_ERROR(HttpServletResponse.SC_BAD_REQUEST, "000", "unknown.error"),
     INVALID_PARAMS(HttpServletResponse.SC_BAD_REQUEST, "001", "invalid.params"),
     DATA_NOT_FOUND(HttpServletResponse.SC_NOT_FOUND, "002", "data.not.found"),

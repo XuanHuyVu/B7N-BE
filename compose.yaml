@@ -1,7 +1,7 @@
 services:
-  TSMSDB:
+  B7NDB:
     image: mysql:latest
-    container_name: TSMSDB
+    container_name: B7NDB
     restart: unless-stopped
     ports:
       - "3306:3306"
@@ -22,7 +22,7 @@ services:
 
   redis:
     image: redis:7.2
-    container_name: redis
+    container_name: redis_b7n
     restart: unless-stopped
     ports:
       - "6379:6379"

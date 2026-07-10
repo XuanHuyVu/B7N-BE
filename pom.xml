@@ -8,9 +8,9 @@
         <version>4.0.0</version>
         <relativePath/>
     </parent>
-    <groupId>com.tlu</groupId>
+    <groupId>com.huy</groupId>
     <artifactId>B7n</artifactId>
-    <version>1.0-SNAPSHOT-TSMS</version>
+    <version>1.0-SNAPSHOT-B7N</version>
     <name>b7n</name>
     <description>b7n</description>
     <url/>

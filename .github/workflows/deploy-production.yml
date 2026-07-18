@@ -89,9 +89,9 @@ jobs:
             set -euo pipefail
             cd /opt/b7n-deploy
             echo "Updating backend source..."
-            git -C B7N_BE fetch origin
-            git -C B7N_BE checkout main
-            git -C B7N_BE pull origin main
+            git -C B7N-BE fetch origin
+            git -C B7N-BE checkout main
+            git -C B7N-BE pull origin main
             echo "Building backend..."
             docker compose build backend
             echo "Restarting backend..."
